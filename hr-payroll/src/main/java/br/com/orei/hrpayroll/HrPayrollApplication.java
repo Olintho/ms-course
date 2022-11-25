@@ -2,13 +2,14 @@ package br.com.orei.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
-// HEREIN : OSJ Capitulo 16 
+// HEREIN : OSJ Capitulo 20
 
-@RibbonClient(name = "hr-worker")
+@EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
 public class HrPayrollApplication {
