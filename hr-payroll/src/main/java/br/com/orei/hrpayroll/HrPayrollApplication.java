@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
-// HEREIN : OSJ Capitulo 22
+// HEREIN : OSJ Capitulo 23
 
 @EnableCircuitBreaker
 @EnableEurekaClient
