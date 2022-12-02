@@ -6,8 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 
 
-//HEREIN : OSJ Capitulo 32 - Fase 4
-//HEREIN : Erro ao levantar hr-worker, será a senha?
+//HEREIN : OSJ Capitulo 34 - Fase 4
 
 
 @EnableEurekaClient
