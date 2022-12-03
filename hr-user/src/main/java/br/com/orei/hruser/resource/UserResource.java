@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.orei.hruser.entities.User;
 import br.com.orei.hruser.repositories.UserRepository;
 
-//HEREIN : OSJ Capitulo 36 - 5:00
+
 
 @RestController
 @RequestMapping(value = "/users")
