@@ -10,7 +10,7 @@ import br.com.orei.hroauth.entities.User;
 
 @Component
 @FeignClient(name = "hr-user", path = "/users")
-public interface UserFeignclient {
+public interface UserFeignClient {
 	
 	@GetMapping(value = "/search")
 	ResponseEntity<User> findByEmail(@RequestParam String email);
