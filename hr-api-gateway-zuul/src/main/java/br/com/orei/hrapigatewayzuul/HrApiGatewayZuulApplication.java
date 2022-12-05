@@ -1,4 +1,4 @@
-package br.com.orei.hrpayroll;
+package br.com.orei.hrapigatewayzuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
