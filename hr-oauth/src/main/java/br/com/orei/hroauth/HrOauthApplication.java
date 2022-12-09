@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-// HEREIN : OSJ Capitulo 42
+// HEREIN : OSJ Capitulo 44
 
 @EnableFeignClients
 @EnableEurekaClient
